@@ -1,15 +1,41 @@
+AIFLASH — AI Flashcards & Study Assistant
+
+Overview
+--------
+Next.js application that generates study flashcards and practice questions using an LLM. Includes authentication and optional Firestore persistence.
+
+Features
+--------
+- Generate flashcards from text or topics
+- Session progress and export options
+- User auth via Firebase
+
+Tech stack
+----------
+Next.js, Tailwind CSS, Firebase (Auth/Firestore), OpenAI
+
+Quick start
+-----------
+1. npm install
+2. create .env.local with NEXT_PUBLIC_FIREBASE_API_KEY and OPENAI_API_KEY
+3. npm run dev
+
+Notes
+-----
+See `firebase.ts` and `middleware.ts` for env var requirements.
+
+Contributing
+------------
+Open an issue to discuss significant changes and submit PRs with clear descriptions and tests where appropriate.
+
+License
+-------
+Check LICENSE in repository root.
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
 First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 # or
 bun dev
 ```
@@ -22,8 +48,6 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
@@ -31,6 +55,46 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+AIFLASH — AI Flashcards & Study Assistant
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Overview
+--------
+Next.js application that generates study flashcards and practice questions using an LLM. Includes authentication and optional Firestore persistence.
+
+Features
+--------
+- Generate flashcards from text or topics
+- Session progress and export options
+AIFLASH — AI Flashcards & Study Assistant
+
+Overview
+--------
+Next.js application that generates study flashcards and practice questions using an LLM. Includes authentication and optional Firestore persistence.
+
+Features
+--------
+- Generate flashcards from text or topics
+- Session progress and export options
+- User auth via Firebase
+
+Tech stack
+----------
+Next.js, Tailwind CSS, Firebase (Auth/Firestore), OpenAI
+
+Quick start
+-----------
+1. npm install
+2. create .env.local with NEXT_PUBLIC_FIREBASE_API_KEY and OPENAI_API_KEY
+3. npm run dev
+
+Notes
+-----
+See `firebase.ts` and `middleware.ts` for env var requirements.
+
+Contributing
+------------
+Open an issue to discuss significant changes and submit PRs with clear descriptions and tests where appropriate.
+
+License
+-------
+Check LICENSE in repository root.
